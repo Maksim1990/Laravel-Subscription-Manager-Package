@@ -1,16 +1,12 @@
 <?php
 
+use MaksimN\SubscriptionManager\Services\SubscriptionManager;
 use PhpSpec\ObjectBehavior;
 
 class SubscriptionManagerSpec extends ObjectBehavior
 {
-    function let(Writer $writer)
+    function it_is_initializable()
     {
-        $this->beConstructedWith($writer);
-    }
-
-    function it_can_subscribe_new_email()
-    {
-        $this->generate('local')->shouldBeString();
+        $this->shouldHaveType(SubscriptionManager::class);
     }
 }
