@@ -20,11 +20,6 @@
             "MaksimN\\SubscriptionManager\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "MaksimN\\SubscriptionManager\\Tests\\": "tests"
-        }
-    },
     "config": {
         "sort-packages": true
     },
