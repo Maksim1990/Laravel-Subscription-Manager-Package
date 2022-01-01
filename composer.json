@@ -1,0 +1,42 @@
+{
+    "name": "maksim_n/subscription-manager",
+    "description": "Convenient Subscription Manager Package",
+    "authors": [
+        {
+            "name": "Maksim Narushevich",
+            "email": "narushevich.maksim@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.23",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MaksimN\\SubscriptionManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MaksimN\\SubscriptionManager\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MaksimN\\SubscriptionManager\\Providers\\SubscriptionManagerServiceProvider"
+            ],
+            "aliases": {
+                "SubscriptionManager": "MaksimN\\SubscriptionManager\\Facades\\SubscriptionManagerFacade"
+            }
+        }
+    }
+}
