@@ -58,7 +58,6 @@ return array(
     'Orchestra\\Testbench\\' => array($vendorDir . '/orchestra/testbench-core/src'),
     'Opis\\Closure\\' => array($vendorDir . '/opis/closure/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
-    'MaksimN\\SubscriptionManager\\Tests\\' => array($baseDir . '/tests'),
     'MaksimN\\SubscriptionManager\\' => array($baseDir . '/src'),
     'League\\MimeTypeDetection\\' => array($vendorDir . '/league/mime-type-detection/src'),
     'League\\Flysystem\\' => array($vendorDir . '/league/flysystem/src'),
