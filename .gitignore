@@ -2,3 +2,5 @@
 /docs
 .env
 .env.behat
+.phpunit.result.cache
+/vendor/

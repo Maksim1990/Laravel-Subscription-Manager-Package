@@ -13,7 +13,7 @@
     },
     "require-dev": {
         "orchestra/testbench": "^6.23",
-        "phpunit/phpunit": "^9.5"
+        "phpspec/phpspec": "7.1.x-dev"
     },
     "autoload": {
         "psr-4": {
